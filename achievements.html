@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaveSmart - Achievements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">💰</span> SaveSmart
+            </a>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav-links">
+                <a href="index.html" class="nav-item">Home</a>
+                <a href="dashboard.html" class="nav-item">Dashboard</a>
+                <a href="challenge.html" class="nav-item">100-Day Challenge</a>
+                <a href="achievements.html" class="nav-item active">Achievements</a>
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark mode">🌙</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="achievements-section">
+        <h2 class="section-heading">Your Milestones & Badges</h2>
+        <p style="text-align: center; color: var(--text-secondary); max-width: 600px; margin: -1.5rem auto 3rem;">
+            Your hard work pays off. Reach your financial goals and complete daily challenge streaks to unlock these achievement badges automatically!
+        </p>
+
+        <div class="badges-grid">
+            <div id="badge-first-step" class="badge-item locked">
+                <span class="badge-icon">🌱</span>
+                <h3>First Step</h3>
+                <p>Saved your first dollar toward your financial goal.</p>
+            </div>
+
+            <div id="badge-halfway" class="badge-item locked">
+                <span class="badge-icon">🏃‍♂️</span>
+                <h3>Halfway There</h3>
+                <p>Completed 50% or more of your active savings goal target.</p>
+            </div>
