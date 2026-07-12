@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaveSmart - 100-Day Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">💰</span> SaveSmart
+            </a>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav-links">
+                <a href="index.html" class="nav-item">Home</a>
+                <a href="dashboard.html" class="nav-item">Dashboard</a>
+                <a href="challenge.html" class="nav-item active">100-Day Challenge</a>
+                <a href="achievements.html" class="nav-item">Achievements</a>
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark mode">🌙</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="challenge-section">
+        <h2 class="section-heading">100-Day Savings Challenge</h2>
+        <p style="text-align: center; color: var(--text-secondary); max-width: 600px; margin: -1.5rem auto 2rem;">
+            Gamify your financial habits! Tap or click each day as you complete your daily savings contribution. Your active progress is tracked automatically.
+        </p>
+
+        <div class="challenge-stats">
+            <span id="challenge-progress-text">0 / 100 Days Completed</span>
+        </div>
+
+        <div id="challenge-grid" class="grid-layout"></div>
+    </main>
+
+    <section class="quote-section">
+        <div class="section-container">
+            <div class="quote-container">
+                <span class="quote-mark">“</span>
